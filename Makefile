@@ -28,7 +28,7 @@ endif
 
 ON_ERROR := error_occurred=1
 
-BREAK_ON_ERRORS = no
+BREAK_ON_ERRORS = yes
 
 STARTING_MAKEFILE := $(firstword $(MAKEFILE_LIST))
 ROOT_MAKEFILE := $(lastword $(MAKEFILE_LIST))
